@@ -1,0 +1,13 @@
+
+
+
+.app {
+  background-color: #f5f6fa;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #333;
+}

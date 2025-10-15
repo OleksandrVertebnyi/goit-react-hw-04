@@ -1,0 +1,28 @@
+
+.wrap {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.button {
+  padding: 8px 40px;
+  font-size: 18px;
+  border-radius: 2px;
+  border: none;
+  background-color: #3f4bb8;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: #303f9f;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+
