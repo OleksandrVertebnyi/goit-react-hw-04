@@ -2,12 +2,12 @@
 import { useState, useEffect } from 'react';
 import { fetchImages } from "./unsplash";
 
-import SearchBar from './api/components/SearchBar/SearchBar';
-import ImageGallery from './api/components/ImageGallery/ImageGallery';
-import ImageModal from './api/components/ImageModal/ImageModal';
-import Loader from './api/components/Loader/Loader';
-import LoadMoreBtn from './api/components/LoadMoreBtn/LoadMoreBtn';
-import ErrorMessage from './api/components/ErrorMessage/ErrorMessage';
+import SearchBar from './components/SearchBar/SearchBar';
+import ImageGallery from './components/ImageGallery/ImageGallery';
+import ImageModal from './components/ImageModal/ImageModal';
+import Loader from './components/Loader/Loader';
+import LoadMoreBtn from './components/LoadMoreBtn/LoadMoreBtn';
+import ErrorMessage from './components/ErrorMessage/ErrorMessage';
 import { Toaster } from 'react-hot-toast';
 
 export default function App() {
