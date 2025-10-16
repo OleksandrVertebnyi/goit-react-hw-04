@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react';
-import { fetchImages } from './api/unsplash';
+import { fetchImages } from "./unsplash";
+
 import SearchBar from './api/components/SearchBar/SearchBar';
 import ImageGallery from './api/components/ImageGallery/ImageGallery';
 import ImageModal from './api/components/ImageModal/ImageModal';
