@@ -13,6 +13,7 @@ export default function SearchBar({ onSubmit }) {
             return;
         }
         onSubmit(trimmed);
+        setQuery("");
     };
 
     return (

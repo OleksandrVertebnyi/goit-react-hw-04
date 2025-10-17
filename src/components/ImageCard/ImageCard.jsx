@@ -8,6 +8,7 @@ export default function ImageCard({ image, onClick }) {
                 alt={image.alt_description || 'Unknown image'}
                 className={styles.img}
                 loading="lazy"
+                onClick={() => onClick(image)}
             />
         </div>
     );
