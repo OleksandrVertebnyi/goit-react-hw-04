@@ -5,7 +5,7 @@ export default function ImageCard({ image, onClick }) {
         <div className={styles.card}  >
             <img
                 src={image.urls.small}
-                alt={image.alt_description || 'Unknown image'}
+                alt={image.alt_description || 'Image'}
                 className={styles.img}
                 loading="lazy"
                 onClick={() => onClick(image)}
