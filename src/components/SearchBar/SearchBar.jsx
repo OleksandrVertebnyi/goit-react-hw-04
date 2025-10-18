@@ -5,7 +5,7 @@ import styles from "./SearchBar.module.css";
 export default function SearchBar({ onSubmit }) {
     const [query, setQuery] = useState("");
     
-    const handleChange = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         const trimmed = query.trim();
         if (!trimmed) {
@@ -18,7 +18,7 @@ export default function SearchBar({ onSubmit }) {
 
     return (
         <header className={styles.SearchBar}>
-            <form className={styles.SearchForm} onSubmit={handleChange}>
+            <form className={styles.SearchForm} onSubmit={handleSubmit}>
                 
                     <button className={styles.button} type="submit" aria-label="Search">
         <svg viewBox="0 0 24 24">
